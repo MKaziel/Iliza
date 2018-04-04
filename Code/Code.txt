@@ -1,6 +1,8 @@
 const Discord = require("discord.js")
 const bot = new Discord.Client()
 
+invite_lnk = "https://discordapp.com/api/oauth2/authorize?client_id=424699304670658560&permissions=8&scope=bot"
+
 bot.login('NDI0Njk5MzA0NjcwNjU4NTYw.DY8ryQ.1U_xhjvjDPBd40NCMcURaXb26dQ')
 
 bot.on('ready', function () {
